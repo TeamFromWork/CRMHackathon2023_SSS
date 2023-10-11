@@ -1,4 +1,3 @@
-# CRMHackathon2023_SSS
 Lead Flow in the system ALGO
 
 Lead is created from External Sources. Inputs channels for leads are and Inbound Lead Event Bus, and API
