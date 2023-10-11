@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deals_With__c</fullName>
+    <externalId>false</externalId>
+    <label>Deals With</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fin Products</fullName>
+                <default>false</default>
+                <label>Fin Products</label>
+            </value>
+            <value>
+                <fullName>Service Goods</fullName>
+                <default>false</default>
+                <label>Service Goods</label>
+            </value>
+            <value>
+                <fullName>Electronic Management</fullName>
+                <default>false</default>
+                <label>Electronic Management</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

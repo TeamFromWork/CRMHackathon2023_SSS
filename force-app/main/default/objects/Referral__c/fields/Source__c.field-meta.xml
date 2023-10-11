@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Source</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bulk load</fullName>
+                <default>false</default>
+                <label>Bulk load</label>
+            </value>
+            <value>
+                <fullName>From any CRM system</fullName>
+                <default>false</default>
+                <label>From any CRM system</label>
+            </value>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <label>Web</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

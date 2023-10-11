@@ -13,7 +13,7 @@ trigger CustEvalEventTrigger on LeadEvent__e (after insert) {
             if(String.isBlank(ev.Customer_ID__c) && !lstPayloadAttributes.isEmpty()){
                 customerId = evalLead.evaluateCustomer(lstPayloadAttributes);
                 if(!String.isBlank(customerId)){
-                    lstEventsToRePublish.add(evalLead.createLeadEvent(customerId, ev.Current_Agent_ID__c, ev));
+                    lstEventsToRePublish.add(evalLead.createLeadEvent(customerId, null, ev));
                 }
             }
         }

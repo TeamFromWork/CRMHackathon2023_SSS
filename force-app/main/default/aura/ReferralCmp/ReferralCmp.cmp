@@ -1,0 +1,8 @@
+<aura:component controller="ReferralController" implements="lightning:isUrlAddressable,force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+	<aura:attribute name="ReferralRecords" type="Referral__c[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+<aura:iteration var="referral" items="{!v.ReferralRecords}">
+    <p>{!referral.Name}</p>
+    
+</aura:iteration>
+</aura:component>

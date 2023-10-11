@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Banker_Name_Validation_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(User__c   =  null,  ISPICKVAL(Application_Type__c  , &apos;CRM&apos;) )</errorConditionFormula>
+    <errorMessage>Banker Name is required when Application type is CRM.</errorMessage>
+</ValidationRule>

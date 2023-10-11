@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expressed_interest__c</fullName>
+    <description>product interest</description>
+    <externalId>false</externalId>
+    <label>Expressed interest</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Financial Advisory</fullName>
+                <default>false</default>
+                <label>Financial Advisory</label>
+            </value>
+            <value>
+                <fullName>Home Lending</fullName>
+                <default>false</default>
+                <label>Home Lending</label>
+            </value>
+            <value>
+                <fullName>Premier banking</fullName>
+                <default>false</default>
+                <label>Premier banking</label>
+            </value>
+            <value>
+                <fullName>Private Banking</fullName>
+                <default>false</default>
+                <label>Private Banking</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
